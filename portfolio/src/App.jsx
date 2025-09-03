@@ -23,7 +23,7 @@ function App() {
     window.open('https://github.com/rithik0711','_blank');
   }
   const openLeetcode =() =>{
-    window.open('https://github.com/rithik0711','_blank');
+    window.open('https://leetcode.com/u/rithikeswaran_m/','_blank');
   }
   return (
     <>
@@ -55,8 +55,8 @@ function App() {
                 <IconButton onClick={openLinkdin} className='icon2' title="LinkedIn Profile">
                   <LinkedInIcon />
                 </IconButton>
-                <IconButton onClick={openLinkdin} className='icon2' title="LinkedIn Profile">
-                  <TwitterIcon />
+                <IconButton onClick={openLeetcode} className='icon3' title="Leetcode Profile">
+                  <img src="./src/assets/LeetCode.png" alt="" />
                 </IconButton>
               </div>
             </div>

@@ -47,7 +47,6 @@ const Skills = () => {
 
 export default Skills;
 
-
 <div className='skills'>
         
         

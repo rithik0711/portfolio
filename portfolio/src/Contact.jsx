@@ -2,7 +2,7 @@ import React from 'react'
 import {useState} from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css'
-
+import EmailIcon from '@mui/icons-material/Email';
 export const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -78,7 +78,7 @@ export const Contact = () => {
           <h3>Resume</h3>
           <p>Get a detailed overview of my skills and experience</p>
           <div className='btn'>
-            <button className='action-btn download'>
+            <button className='action-btn download' href="https://rithikeswaran-m-resume.tiiny.site/">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
               </svg>
@@ -105,10 +105,6 @@ export const Contact = () => {
               <input type="email" id="email" placeholder="Your Email" required  name="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
               {/* <label htmlFor="email">Email</label> */}
             </div>
-            
-            {/* <div className='form-group'>
-              <input type="text" id="subject" placeholder="Subject" required name="subject"/>
-            </div> */}
             
             <div className='form-group'>
               <textarea id="message" placeholder="Your Message" rows="5" required name="message" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
