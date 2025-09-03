@@ -9,9 +9,10 @@ export const Contact = () => {
   const [message, setMessage] = useState("");
     const handleSubmit = (e) => {
     e.preventDefault();
-    const serviceId = 'service_piq9345';
-    const templateId = 'template_2u3g9r8';
-    const publicKey = 'cuMeEZhESXuRFIyVk';
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
     const templateparams = {
       name: name,
       email: email,
