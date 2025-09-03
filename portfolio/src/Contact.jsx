@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
 import './Contact.css'
 import EmailIcon from '@mui/icons-material/Email';
 export const Contact = () => {
