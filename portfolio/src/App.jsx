@@ -56,13 +56,13 @@ function App() {
                   <LinkedInIcon />
                 </IconButton>
                 <IconButton onClick={openLeetcode} className='icon3' title="Leetcode Profile">
-                  <img src="./src/assets/images/LeetCode.png" alt="" />
+                  <img src="./images/LeetCode.png" alt="" />
                 </IconButton>
               </div>
             </div>
             
             <div className='profile-section'>
-              <img src="./src/assets/images/my-pic.jpg" alt="Rithikeswaran M" className='profile'/>
+              <img src="./images/my-pic.jpg" alt="Rithikeswaran M" className='profile'/>
             </div>
           </div>
           

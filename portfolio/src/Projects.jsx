@@ -15,7 +15,7 @@ export const Projects = () => {
       id: 1,
       title: "AI-Exam Conducting Portal",
       description: "Advanced machine learning system that provides personalized recommendations using collaborative filtering and deep learning algorithms.",
-      image: "./src/assets/images/exam_portal.png",
+      image: "./images/exam_portal.png",
       category: "Gen AI",
       tech: ["React JS", "Node JS", "Express JS", "SQL", "Docker"],
       github: "https://github.com/rithik0711/recommendation-system",
