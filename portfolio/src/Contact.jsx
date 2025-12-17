@@ -79,19 +79,33 @@ export const Contact = () => {
           <h3>Resume</h3>
           <p>Get a detailed overview of my skills and experience</p>
           <div className='btn'>
-            <button className='action-btn download' href="https://rithikeswaran-m-resume.tiiny.site/">
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-              </svg>
-              View PDF
-            </button>
-            <button className='action-btn download'>
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-              </svg>
-              Download PDF
-            </button>
-          </div>
+
+          {/* View PDF */}
+          <a 
+            className='action-btn download' 
+            href="/images/Rithikeswaran - resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            </svg>
+            View PDF
+          </a>
+
+          {/* Download PDF */}
+          <a 
+            className='action-btn download' 
+            href="/Resume.pdf" 
+            download="Rithikeswaran-Resume.pdf"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            </svg>
+            Download PDF
+          </a>
+
+        </div>
         </div>
         </div>
         

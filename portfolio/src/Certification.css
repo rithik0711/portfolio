@@ -322,6 +322,13 @@
   border-color: #667eea;
   background: rgba(102, 126, 234, 0.1);
 }
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* ⭐ ALWAYS 2 per row */
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .cert-mini-card img {
   width: 200px;
